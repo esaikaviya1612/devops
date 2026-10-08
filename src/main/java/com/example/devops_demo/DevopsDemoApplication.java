@@ -15,7 +15,7 @@ public class DevopsDemoApplication {
 
     @GetMapping("/")
     public String home() {
-        return "Hello from DevOps Demo App!";
+        return "Hello from DevOps Demo App!"; //remote change esai
     }
 
     @GetMapping("/status")
